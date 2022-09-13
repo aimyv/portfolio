@@ -1,0 +1,24 @@
+body#green-background {
+    background-color: rgb(143, 187, 130 );
+    color: rgb(146, 132, 44);
+}
+
+body#green-background a:hover {
+    color: blue;
+}
+
+body#green-background a:link {
+    color: rgb(79, 71, 19);
+} 
+
+body#blue-background {
+    background-color: rgb(155, 201, 234);
+}
+
+body#purple-background {
+    background-color: rgb(194, 155, 234);
+}
+
+body#pink-background {
+    background-color: rgb(234, 155, 209);
+}
