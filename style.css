@@ -1,13 +1,17 @@
 body#green-background {
     background-color: rgb(143, 187, 130 );
-    color: rgb(146, 132, 44);
+}
+
+div.center {
+    margin: auto;
+    width: 15%;
 }
 
 a:hover {
     color: blue;
 }
 
-.center {
+p.center {
     text-align: center;
 }
 
@@ -33,4 +37,11 @@ h1 {
 
 .home {
     font-size: 2em;
+}
+
+div {
+    background-color: white;
+    padding: 20px;
+    border: solid white 1px;
+    border-radius: 10px;
 }
