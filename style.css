@@ -7,16 +7,8 @@ div.center {
     width: 15%;
 }
 
-a:link {
-    color: black;
-}
-
 a:hover {
     color: blue;
-}
-
-a:visited {
-    color: rgb(108, 98, 32);
 }
 
 p.center {
