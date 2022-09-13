@@ -3,13 +3,13 @@ body#green-background {
     color: rgb(146, 132, 44);
 }
 
-body#green-background a:hover {
+a:hover {
     color: blue;
 }
 
-body#green-background a:link {
-    color: rgb(79, 71, 19);
-} 
+.center {
+    text-align: center;
+}
 
 body#blue-background {
     background-color: rgb(155, 201, 234);
@@ -25,4 +25,12 @@ body#pink-background {
 
 #half-size {
     max-width: 50%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.home {
+    font-size: 2em;
 }
