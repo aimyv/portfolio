@@ -22,3 +22,7 @@ body#purple-background {
 body#pink-background {
     background-color: rgb(234, 155, 209);
 }
+
+#half-size {
+    max-width: 50%;
+}
