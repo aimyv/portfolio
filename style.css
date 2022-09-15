@@ -1,15 +1,15 @@
 :root {
-    --blue: rgb(95, 173, 163);
     --sand: rgb(211, 204, 162);
+    --sea: rgb(48, 134, 149);
 }
 
 body {
-    background-color: var(--blue);
+    background-color: var(--sea);
 }
 
 .sand {
     background-color: var(--sand);
-    width: 50%;
+    width: 60%;
     border: solid white 1px;
     border-radius: 10px;
     margin: 10px auto;
@@ -20,10 +20,6 @@ body {
 div.center {
     margin: auto;
     width: 15%;
-}
-
-a:hover {
-    color: blue;
 }
 
 p.center {
