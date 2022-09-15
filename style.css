@@ -10,7 +10,7 @@ body {
 .title {
     background-color: var(--sea);
     width: 60%;
-    border: solid white 1px;
+    border: solid white 3px;
     border-radius: 10px;
     margin: 10px auto;
     color: var(--sand);
@@ -22,12 +22,24 @@ body {
 }
 
 div.center {
-    margin: auto;
-    width: 15%;
+    margin: 10px auto;
+    width: 35%;
 }
 
 p.center {
     text-align: center;
+}
+
+.not-nav:link, .not-nav:visited {
+    color: var(--sand);
+}
+
+.not-nav:hover, .not-nav:active {
+    color: coral;
+}
+
+nav {
+    border: solid var(--sand) 3px;
 }
 
 #half-size {
@@ -36,6 +48,11 @@ p.center {
 
 h1 {
     text-align: center;
+}
+
+p, li {
+    color: white;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .home {
