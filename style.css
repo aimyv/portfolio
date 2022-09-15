@@ -1,10 +1,20 @@
 :root {
-    --purple: rgb(226, 180, 239);
+    --blue: rgb(95, 173, 163);
     --sand: rgb(211, 204, 162);
 }
 
 body {
-    background-color: var(--purple);
+    background-color: var(--blue);
+}
+
+.sand {
+    background-color: var(--sand);
+    width: 50%;
+    border: solid white 1px;
+    border-radius: 10px;
+    margin: 10px auto;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
 }
 
 div.center {
@@ -32,7 +42,7 @@ h1 {
     font-size: 2em;
 }
 
-div {
+.form {
     background-color: var(--sand);
     padding: 20px;
     border: solid white 1px;
