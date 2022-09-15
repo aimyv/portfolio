@@ -1,10 +1,10 @@
 :root {
-    --green: rgb(143, 187, 130 );
+    --purple: rgb(226, 180, 239);
     --sand: rgb(211, 204, 162);
 }
 
 body {
-    background-color: var(--green);
+    background-color: var(--purple);
 }
 
 div.center {
