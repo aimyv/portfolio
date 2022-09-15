@@ -1,5 +1,10 @@
-body#green-background {
-    background-color: rgb(143, 187, 130 );
+:root {
+    --green: rgb(143, 187, 130 );
+    --sand: rgb(211, 204, 162);
+}
+
+body {
+    background-color: var(--green);
 }
 
 div.center {
@@ -15,18 +20,6 @@ p.center {
     text-align: center;
 }
 
-body#blue-background {
-    background-color: rgb(155, 201, 234);
-}
-
-body#purple-background {
-    background-color: rgb(194, 155, 234);
-}
-
-body#pink-background {
-    background-color: rgb(234, 155, 209);
-}
-
 #half-size {
     max-width: 50%;
 }
@@ -40,7 +33,7 @@ h1 {
 }
 
 div {
-    background-color: rgb(211, 204, 162);
+    background-color: var(--sand);
     padding: 20px;
     border: solid white 1px;
     border-radius: 10px;
