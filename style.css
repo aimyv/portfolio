@@ -34,7 +34,11 @@ p.center {
     color: var(--sand);
 }
 
-.not-nav:hover, .not-nav:active {
+.blue:link, .blue:visited {
+    color: var(--sea);
+}
+
+.not-nav:hover, .not-nav:active, .blue:hover, .blue:active {
     color: coral;
 }
 
@@ -58,8 +62,4 @@ p, li {
 
 .home {
     font-size: 2em;
-}
-
-.accordian > a {
-    color: coral;
 }
