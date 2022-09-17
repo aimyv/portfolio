@@ -23,7 +23,7 @@ body {
 
 div.center {
     margin: 10px auto;
-    width: 60%;
+    width: 70%;
 }
 
 p.center {
@@ -58,4 +58,8 @@ p, li {
 
 .home {
     font-size: 2em;
+}
+
+.accordian > a {
+    color: coral;
 }
