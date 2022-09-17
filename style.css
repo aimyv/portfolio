@@ -48,6 +48,7 @@ nav {
 
 h1 {
     text-align: center;
+    font-family: 'Source Code Pro', monospace;
 }
 
 p, li {
@@ -57,11 +58,4 @@ p, li {
 
 .home {
     font-size: 2em;
-}
-
-.form {
-    background-color: var(--sand);
-    padding: 20px;
-    border: solid white 1px;
-    border-radius: 10px;
 }
