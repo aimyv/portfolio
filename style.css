@@ -81,7 +81,7 @@ p, li {
     margin: 0;
     text-align: center;
     text-decoration: none;
-    border: solid var(--sea) 1px;
+    border: solid white 1px;
     border-radius: 10px;
 }
 
