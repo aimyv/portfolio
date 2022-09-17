@@ -63,3 +63,7 @@ p, li {
 .home {
     font-size: 2em;
 }
+
+.blue, .accordion-body {
+    font-family: 'Source Code Pro', monospace;
+}
