@@ -72,6 +72,8 @@ p, li {
     background-color: var(--sea);
     width: 110px;
     align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 .fa {
