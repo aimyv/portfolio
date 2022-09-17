@@ -67,3 +67,24 @@ p, li {
 .blue, .accordion-body {
     font-family: 'Source Code Pro', monospace;
 }
+
+.socials {
+    background-color: var(--sea);
+    width: 110px;
+    align-items: center;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    border: solid var(--sea) 1px;
+    border-radius: 10px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
