@@ -29,6 +29,11 @@ div.center {
     padding: 10px;
 }
 
+.accordion {
+    margin: 10px auto;
+    width: 70%;
+}
+
 p.center {
     text-align: center;
 }
