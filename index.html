@@ -26,9 +26,9 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item"><a class="nav-link active" aria-current="page" href="./index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link font" href="./about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link font" href="./projects.html">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link font" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link font" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -38,15 +38,108 @@
         <h1 class="display-1">Aimy Varghese</h1>
     </div>
 
-    <div class="center">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ad voluptate quibusdam saepe magnam, in obcaecati ipsa dolorum suscipit eum? Ea quia optio laborum velit atque accusamus necessitatibus, deserunt officiis!</p>
-    </div>
-
     <div>
         <div class="socials">
             <a href="https://github.com/aimyv" class="fa fa-github" style="background-color: #333333; color: white;" target="_blank"></a>
             <a href="https://www.linkedin.com/in/aimy-varghese/" class="fa fa-linkedin" style="background-color: #0082ca; color: white;" target="_blank"></a>
         </div>
+    </div>
+
+    <div class="center">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ad voluptate quibusdam saepe magnam, in obcaecati ipsa dolorum suscipit eum? Ea quia optio laborum velit atque accusamus necessitatibus, deserunt officiis!</p>
+    </div>
+
+    <div class="subtitle" id="experience">
+        <h1 class="display-2">Experience</h1>
+    </div>
+
+    <div class="center">
+        <p>BSc Computer Science (Hons) - <a href="https://www.bath.ac.uk/" class="not-nav">University of Bath</a></p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, assumenda velit nostrum cumque reprehenderit illo voluptatibus. Odit dicta nulla cumque nostrum quidem, necessitatibus, voluptate doloremque voluptas iste similique corrupti aliquid.</p>
+    </div>
+
+    <div class="subtitle" id="projects">
+        <h1 class="display-2">Projects</h1>
+    </div>
+
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+
+            <h2 class="accordion-header" id="diss">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDiss" aria-expanded="false" aria-controls="collapseDiss">
+                    A Serious Game for the Tuition of First-Order Logic Concepts
+                </button>
+                </h2>
+                <div id="collapseDiss" class="accordion-collapse collapse" aria-labelledby="diss" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Tech stack: HTML, CSS, JavaScript. 
+                        <br>
+                        <a href="https://aimyv.github.io/first-order-logic-game/" class="not-nav blue" target="_blank">Deployed</a> on GitHub Pages.
+                        <br><br>
+                        This was the result of my final-year project at the University of Bath. My dissertation revolved around Serious Games and how they could be used to teach mathematical concepts alongside traditional learning methods. Findings from the literature informed the design and implementation of a Serious Game to teach undergraduates about concepts in first-order logic. This was followed by an evaluation into the effectiveness of the game in teaching concepts to new learners and consolidating concepts for experienced learners.
+                    </div>
+                </div>
+
+                <h2 class="accordion-header" id="blog">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBlog" aria-expanded="false" aria-controls="collapseBlog">
+                        Maulorum
+                    </button>
+                    </h2>
+                    <div id="collapseBlog" class="accordion-collapse collapse" aria-labelledby="blog" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Tech stack: HTML, CSS, JavaScript, Express.js, Jest, Supertest. 
+                            <br>
+                            <a href="https://maulorum.netlify.app/" class="not-nav blue" target="_blank">Deployed</a> client on Netlify.
+                            <br>
+                            <a href="https://maulers-server.onrender.com/" class="not-nav blue" target="_blank">Deployed</a> server on Render. Code is available on <a href="https://github.com/aimyv/lap1_project_backend">GitHub</a>.
+                            <br>
+                            Collaborated with Ami Baruwa-Etti, George Wood, Kalin Karaliev and Matthieu Chan.
+                            <br><br>
+                            Lap 1 Group Project. Blog named in honour of mixed martial artist Alexander Gustafsson. I contributed to the backend.
+                        </div>
+                    </div>
+
+            <h2 class="accordion-header" id="gclone">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseGClone" aria-expanded="false" aria-controls="collapseGClone">
+                    Google Clone
+                </button>
+                </h2>
+                <div id="collapseGClone" class="accordion-collapse collapse" aria-labelledby="gclone" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Tech stack: HTML, CSS, JavaScript, Express.js. 
+                        <br>
+                        <a href="https://github.com/aimyv/Google-Clone" class="not-nav blue" target="_blank">Available</a> on GitHub.
+                        <br>
+                        Collaborated with Oliver Catelan-Robinson.
+                        <br><br>
+                        Lap 1 Coding Challenge. Made a clone of the Google Search Console. You can search for turtles, tigers and koalas. I handled the backend.
+                    </div>
+                </div>
+
+            <h2 class="accordion-header" id="sushi">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSushi" aria-expanded="false" aria-controls="collapseSushi">
+                California Roll
+            </button>
+            </h2>
+            <div id="collapseSushi" class="accordion-collapse collapse" aria-labelledby="sushi" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Tech stack: HTML, CSS, Bootstrap. 
+                    <br>
+                    <a href="https://californiaroll.netlify.app/" class="not-nav blue" target="_blank">Deployed</a> on Netlify.
+                    <br><br>
+                    Recipe page on a popular sushi dish.
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="subtitle" id="contact">
+        <h1 class="display-2">Contact</h1>
+    </div>
+
+    <div class="center">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur nulla sequi velit accusamus repellendus consequuntur, voluptate magni magnam, unde veritatis quae reiciendis. Debitis, officiis. Excepturi impedit laborum a rem reprehenderit?</p>
     </div>
 
 </body>
