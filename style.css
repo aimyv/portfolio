@@ -103,7 +103,7 @@ p, li {
     margin: 0 auto; */
     position: fixed;
     bottom: 40%;
-    right: 3%;
+    right: 1%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
