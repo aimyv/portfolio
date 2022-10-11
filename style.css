@@ -28,14 +28,6 @@ body {
     font-family: 'Source Code Pro', monospace;
 }
 
-#projects {
-    text-align: center;
-}
-
-#contact {
-    text-align: right;
-}
-
 .sand {
     background-color: var(--sand);
 }
