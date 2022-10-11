@@ -17,6 +17,14 @@ body {
     font-family: 'Source Code Pro', monospace;
 }
 
+.subtitle {
+    background-color: var(--sea);
+    width: 70%;
+    margin: 10px auto;
+    color: var(--sand);
+    font-family: 'Source Code Pro', monospace;
+}
+
 .sand {
     background-color: var(--sand);
 }
