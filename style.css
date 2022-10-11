@@ -117,3 +117,7 @@ p, li {
 .fa:hover {
     opacity: 0.7;
 }
+
+.accordion-body > ul > li {
+    color: black;
+}
