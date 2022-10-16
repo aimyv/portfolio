@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Aimy Varghese Portfolio</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./android-chrome-512x512.png" alt="Portfolio Logo" width="32" height="32" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler sand" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link font" aria-current="page" href="./index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link font" href="./experience.html">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="./projects.html">Projects</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="socials">
+        <a href="https://github.com/aimyv" class="fa fa-github" style="background-color: #333333; color: white;" target="_blank"></a>
+        <a href="https://www.linkedin.com/in/aimy-varghese/" class="fa fa-linkedin" style="background-color: #0082ca; color: white;" target="_blank"></a>
+    </div>
+
+    <div class="title" id="projects">
+        <h1 class="display-1">Projects</h1>
+    </div>
+
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+
+            <h2 class="accordion-header" id="diss">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDiss" aria-expanded="false" aria-controls="collapseDiss">
+                    A Serious Game for the Tuition of First-Order Logic Concepts
+                </button>
+                </h2>
+                <div id="collapseDiss" class="accordion-collapse collapse" aria-labelledby="diss" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Undergraduate Final Year Project</strong>
+                        <br><br>
+                        Tech stack:
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                        <a href="https://aimyv.github.io/first-order-logic-game/" class="not-nav blue" target="_blank">Deployed</a> on GitHub Pages.
+                        <br><br>
+                        This was the result of my final-year project at the University of Bath. My dissertation revolved around Serious Games and how they could be used to teach mathematical concepts alongside traditional learning methods. Findings from the literature informed the design and implementation of a Serious Game to teach undergraduates about concepts in first-order logic. This was followed by an evaluation into the effectiveness of the game in teaching concepts to new learners and consolidating concepts for experienced learners.
+                    </div>
+                </div>
+
+                <h2 class="accordion-header" id="blog">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBlog" aria-expanded="false" aria-controls="collapseBlog">
+                        Maulorum
+                    </button>
+                    </h2>
+                    <div id="collapseBlog" class="accordion-collapse collapse" aria-labelledby="blog" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Lap 1 Group Project.</strong>
+                            <br><br>
+                            Tech stack: 
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>Express.js</li>
+                                <li>Jest</li>
+                            </ul>
+                            Deployed:
+                            <ul>
+                                <li>Client on <a href="https://maulorum.netlify.app/" class="not-nav blue" target="_blank">Netlify</a>.</li>
+                                <li>Server on <a href="https://maulers-server.onrender.com/" class="not-nav blue" target="_blank">Render</a>.</li>
+                            </ul>
+                            Code for the backend is available on <a href="https://github.com/aimyv/lap1_project_backend" class="not-nav blue" target="_blank">GitHub</a>.
+                            <br><br>
+                            Collaborated with Ami Baruwa-Etti, George Wood, Kalin Karaliev and Matthieu Chan.
+                        </div>
+                    </div>
+
+            <h2 class="accordion-header" id="gclone">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseGClone" aria-expanded="false" aria-controls="collapseGClone">
+                    Google Clone
+                </button>
+                </h2>
+                <div id="collapseGClone" class="accordion-collapse collapse" aria-labelledby="gclone" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Lap 1 Coding Challenge.</strong> 
+                        <br><br>
+                        Tech stack: 
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>Express.js</li>
+                            </ul>
+                        Available on <a href="https://github.com/aimyv/Google-Clone" class="not-nav blue" target="_blank">Github</a>.
+                        <br><br>
+                        Collaborated with Oliver Catelan-Robinson.
+                    </div>
+                </div>
+
+            <h2 class="accordion-header" id="sushi">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSushi" aria-expanded="false" aria-controls="collapseSushi">
+                California Roll
+            </button>
+            </h2>
+            <div id="collapseSushi" class="accordion-collapse collapse" aria-labelledby="sushi" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Tech stack: 
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                    <a href="https://californiaroll.netlify.app/" class="not-nav blue" target="_blank">Deployed</a> on Netlify.
+                    <br><br>
+                    Recipe page on a popular sushi dish.
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>

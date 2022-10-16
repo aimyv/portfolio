@@ -18,15 +18,13 @@ body {
     text-align: center;
 }
 
-.subtitle {
+/* .subtitle {
     background-color: var(--sea);
     width: 70%;
-    /* border: solid white 1px;
-    border-radius: 10px; */
     margin: 10px auto;
     color: var(--sand);
     font-family: 'Source Code Pro', monospace;
-}
+} */
 
 .sand {
     background-color: var(--sand);
