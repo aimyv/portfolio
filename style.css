@@ -24,10 +24,8 @@ div.center {
     border: solid white 1px;
     border-radius: 10px;
     padding: 10px;
-
-    background: rgba(178, 178, 178, 0.227);
-    backdrop-filter: blur( 7px );
-    -webkit-backdrop-filter: blur( 5.5px );
+    
+    background-color: white;
 }
 
 #skills {
@@ -36,6 +34,7 @@ div.center {
     border: solid white 1px;
     border-radius: 10px;
     padding: 10px;
+    color: white;
 }
 
 .accordion {
@@ -80,7 +79,7 @@ h1 {
 }
 
 p, li, div.center > a, h2 {
-    color: white;
+    /* color: white; */
     font-family: 'Source Code Pro', monospace;
 }
 
