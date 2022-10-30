@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
 :root {
     --sand: rgb(211, 204, 162);
     --sea: rgb(48, 134, 149);
@@ -14,7 +17,6 @@ body {
     border-radius: 10px;
     margin: 10px auto;
     color: var(--sand);
-    font-family: 'Source Code Pro', monospace;
     text-align: center;
 }
 
@@ -24,17 +26,19 @@ div.center {
     border: solid white 1px;
     border-radius: 10px;
     padding: 10px;
-    
-    background-color: white;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
 }
 
-#skills {
+.skills {
     margin: 10px auto;
-    width: 70%;
+    width: 50%;
     border: solid white 1px;
     border-radius: 10px;
     padding: 10px;
     color: white;
+    display: flex;
+    justify-content: center;
 }
 
 .accordion {
@@ -78,16 +82,12 @@ h1 {
     font-family: 'Source Code Pro', monospace;
 }
 
-p, li, div.center > a, h2 {
-    /* color: white; */
-    font-family: 'Source Code Pro', monospace;
-}
-
 .home {
     font-size: 2em;
 }
 
-.blue, .accordion-body, .accordion-button {
+/* .blue, .accordion-button  */
+.blue, .accordion-button, .accordion-body{
     font-family: 'Source Code Pro', monospace;
 }
 
