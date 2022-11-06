@@ -1,17 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 /* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Quicksand', sans-serif; */
+/* font-family: 'Source Code Pro', monospace; */
 
 :root {
-    --sand: rgb(211, 204, 162);
-    --sea: rgb(48, 134, 149);
+    /* --sand: rgb(211, 204, s162);
+    --sea: rgb(48, 134, 149); */
+    --sand: rgb(183, 178, 151); 
+    --forest: rgb(47, 73, 47);
 }
 
 body {
-    background-color: var(--sea);
+    background-color: var(--forest);
 }
 
 .title {
-    background-color: var(--sea);
+    background-color: var(--forest);
     width: 70%;
     border: solid white 3px;
     border-radius: 10px;
@@ -25,9 +30,12 @@ div.center {
     width: 70%;
     border: solid white 1px;
     border-radius: 10px;
-    padding: 10px;
+    padding: 15px;
     color: white;
-    font-family: 'Source Code Pro', monospace;
+    /* color: black; */
+    background-color: rgba(255, 255, 255, 0.1);
+    font-family: 'Quicksand', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
 }
 
 .skills {
@@ -55,7 +63,7 @@ p.center {
 }
 
 .blue:link, .blue:visited {
-    color: var(--sea);
+    color: var(--forest);
 }
 
 .not-nav:hover, .not-nav:active, .blue:hover, .blue:active {
@@ -79,6 +87,8 @@ p.center {
 }
 
 h1 {
+    /* font-family: 'Quicksand', sans-serif; */
+    /* font-family: 'Poppins', sans-serif; */
     font-family: 'Source Code Pro', monospace;
 }
 
@@ -88,11 +98,12 @@ h1 {
 
 /* .blue, .accordion-button  */
 .blue, .accordion-button, .accordion-body{
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Quicksand', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
 }
 
 .socials {
-    background-color: var(--sea);
+    background-color: var(--forest);
     position: fixed;
     bottom: 40%;
     right: 1%;
