@@ -7,7 +7,7 @@
 :root {
     /* --sand: rgb(211, 204, s162);
     --sea: rgb(48, 134, 149); */
-    --sand: rgb(183, 178, 151); 
+    --sand: rgb(154, 145, 98); 
     --forest: rgb(47, 73, 47);
 }
 
@@ -146,4 +146,42 @@ h2 {
 
 #skills > img {
     margin: 10px 15px;
+}
+
+.screenshots {
+    width: 50%;
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+    position: relative;
+}
+
+.screenshots:hover {
+    filter: blur(3px);
+}
+
+.link > a {
+    color: white;
+    text-decoration: none;
+}
+
+.link {
+    display: none;
+    background-color: var(--sand);
+}
+
+.screenshots:hover + .link, .link:hover {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
 }
