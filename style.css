@@ -58,6 +58,11 @@ p.center {
     text-align: center;
 }
 
+.nav-item {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+
 .not-nav:link, .not-nav:visited {
     color: var(--sand);
 }
